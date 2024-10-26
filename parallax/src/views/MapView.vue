@@ -1,10 +1,9 @@
-<script>
-import map from '@/assets/map.vue';
+<script setup>
+import WorldMap from '@/components/WorldMap.vue';
 </script>
 
 <template>
-
-    <main>
-    <map/>
-    </main>
+  <main>
+    <WorldMap />
+</main>
 </template>

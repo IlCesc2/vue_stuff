@@ -8,15 +8,14 @@ const props = defineProps({
 const { bg } = toRefs(props);
 
 const fBg = ref(`bg-${bg.value}`);
-
 </script>
 
 <template>
     <div
-      class="w-full min-h-screen bg-center bg-cover bg-no-repeat flex items-end bg-fixed bg-opacity-90 "
+      class="w-full min-h-screen bg-center bg-cover bg-no-repeat flex items-center bg-fixed bg-opacity-90 border-b-2 border-b-black"
       :class="fBg"
     >
-      <div class="flex-col bg-gray-600 bg-opacity-75 p-10 h-[30vh]">
+      <div class="flex-col bg-gray-600 bg-opacity-75 p-10 h-[30vh] ">
         <h1 class="text-2xl font-bold pb-10">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum,
           incidunt?
